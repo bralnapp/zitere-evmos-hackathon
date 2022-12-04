@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: "Matter-Bold";
+		src: local("Matter Bold"), local("Matter-Bold"),
+			url("./assets/fonts/Matter/Matter-Bold.ttf") format("truetype");
+		font-weight: bold;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: "Matter-Medium";
+		src: local("Matter Medium"), local("Matter-Medium"),
+			url("./assets/fonts/Matter/Matter-Medium.ttf") format("truetype");
+		font-weight: 500;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: "Matter-Regular";
+		src: local("Matter Regular"), local("Matter-Regular"),
+			url("./assets/fonts/Matter/Matter-Regular.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: "Matter-SemiBold";
+		src: local("Matter SemiBold"), local("Matter-SemiBold"),
+			url("./assets/fonts/Matter/Matter-SemiBold.ttf") format("truetype");
+		font-weight: 600;
+		font-style: normal;
+	}
+}
+
+@layer components {
+	.layout-container {
+		@apply w-11/12 mx-auto;
+	}
+
+	.error {
+		@apply border border-red-500;
+	}
+
+	.btn {
+		@apply bg-[#5E44FF] cursor-pointer rounded-[4px] matter-medium text-white flex items-center justify-center capitalize text-base leading-[18px] w-[196px] h-12;
+	}
+
+	.sidebar-text {
+		@apply matter-medium text-white text-base leading-[19px] capitalize;
+	}
+
+	.label {
+		@apply matter-medium text-base leading-[19px] text-[#0A0B0D] mb-2;
+	}
+
+	.initiated {
+		@apply text-[#2952CC] bg-[#D6E0FF];
+	}
+
+	.accepted {
+		@apply bg-[#edeff5] text-[#474d66];
+	}
+
+	.completed {
+		@apply bg-[rgba(32,150,83,0.1)] text-[#209653];
+	}
+
+	.fulfilled {
+		@apply bg-[#DCF2EA] text-[#317159];
+	}
+
+	.cancelled {
+		@apply bg-[rgba(235,87,87,0.1)] text-[#EB5757];
+	}
+
+	.dispute {
+		@apply text-[#66460D] bg-[#FFEFD2];
+	}
+}
+
+.matter-bold {
+	font-family: Matter-Bold;
+}
+
+.matter-medium {
+	font-family: Matter-Medium;
+}
+
+.matter-regular {
+	font-family: Matter-Regular;
+}
+
+.matter-semiBold {
+	font-family: Matter-SemiBold;
+}
