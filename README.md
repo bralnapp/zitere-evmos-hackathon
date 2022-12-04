@@ -21,7 +21,7 @@
 ## Zitere
 The fastest way to send money across borders
 
-Demo: [https://zitere.vercel.app](https://zitere.vercel.app)
+Demo: [https://zitere-evmos-hackathon-zeta.vercel.app](https://zitere-evmos-hackathon-zeta.vercel.app)
 
 ### Built With
 
@@ -29,7 +29,7 @@ Demo: [https://zitere.vercel.app](https://zitere.vercel.app)
 * React Query
 * Tailwind CSS
 * Solidity
-* Polygon Testnet
+* Evmos Mainnet
 
 ### The Use of the Product
 Zitere enables users worldwide to send remittance payments to family members in their home countries using cryptocurrency, however, the recipient receives the money in their local currency bank account. Nigeria, Ghana, South Africa, Kenya, and Cote D'Ivore are currently the supported countries.
@@ -73,10 +73,14 @@ Transaction points (XP) are introduced on the platform to help incentivize user 
 * npm start to start development server
 
 ### How to test the Zitere deployed app
-* First get the Zitere USDC Testnet token from the contract on Mumbai.
-* You can claim it from the mint function [here](https://mumbai.polygonscan.com/address/0x9bD0428f8b661B11cF2c646871f52DabC22e3240).
-* Use the Zitere USDC Testnet token to initiate a Remittance transfer on [https://zitere.vercel.app](https://zitere.vercel.app).
+* First get the Zitere USDC Dummy token from the contract on Evmos. Zitere USDC Contract Address - 0x24980dFe830205C96d827875651ea42343103C68
+* You can claim 1000 tokens from the mint function.
+* Use the Zitere USDC Dummy token to initiate a Remittance transfer on [https://zitere-evmos-hackathon-zeta.vercel.app](https://zitere-evmos-hackathon-zeta.vercel.app).
 
+
+### License - GPLv3
+This project is licensed under GPLv3
+[Link to License](https://github.com/bralnapp/zitere-evmos-hackathon/blob/main/gpl-3.0.txt)
 
 
 ## 🤝 Contributing
