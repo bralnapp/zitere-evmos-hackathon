@@ -78,8 +78,9 @@ Transaction points (XP) are introduced on the platform to help incentivize user 
 * Use the Zitere USDC Dummy token to initiate a Remittance transfer on [https://zitere-evmos-hackathon-zeta.vercel.app](https://zitere-evmos-hackathon-zeta.vercel.app).
 
 
-### License - GPLv3
+## License - GPLv3
 This project is licensed under GPLv3
+
 [Link to License](https://github.com/bralnapp/zitere-evmos-hackathon/blob/main/gpl-3.0.txt)
 
 
