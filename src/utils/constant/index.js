@@ -12,7 +12,7 @@ const networks = {
         chainName: 'Evmos',
         nativeCurrency: {
             name: "Evmos",
-            symbol: "Evmos",
+            symbol: "EVMOS",
             decimals: 18
         },
         rpcUrls: [
